@@ -28,6 +28,16 @@
       text-align: center;
       color: #ffe6ff;
     }
+    p {
+      text-align: justify;
+    }
+    ul {
+      margin-top: 1rem;
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
     img {
       display: block;
       max-width: 100%;
@@ -56,21 +66,50 @@
     <p>After high school, I want to <strong>try to become a programmer</strong>. Programming allows me to use <em>computing devices</em>, <em>computer networks</em>, and data to solve real-world problems.</p>
   </section>
 
+  <!-- Unit 1 -->
   <section>
     <h2>Unit 1: Data</h2>
-    <p>Data is stored in <strong>bits</strong> and <strong>bytes</strong>. Sometimes we see <strong>roundoff</strong> errors if there aren’t enough bits. <strong>Analog data</strong> changes smoothly, while digital data is in steps. Data can be compressed using <strong>lossless</strong> (keeps everything) or <strong>lossy</strong> (discards some) methods. We can also describe data with <strong>metadata</strong>.</p>
+    <p>
+      Data is the foundation of computing. It can be represented in many forms, stored, and transmitted
+      across devices. Here are some key terms from Unit 1:
+    </p>
+    <ul>
+      <li><strong>Bit:</strong> A binary digit, either 0 or 1.</li>
+      <li><strong>Byte:</strong> A sequence of 8 bits.</li>
+      <li><strong>Roundoff:</strong> Error that results when the number of bits is not enough to represent the number with full precision.</li>
+      <li><strong>Analog Data:</strong> Values that change smoothly over time (e.g., pitch and volume of music).</li>
+      <li><strong>Lossless:</strong> Compressing data without losing any information.</li>
+      <li><strong>Lossy:</strong> Compressing data by removing some details, making exact recovery impossible.</li>
+      <li><strong>Metadata:</strong> Data about data, like descriptive information about a file.</li>
+    </ul>
     <img src="bits.jpeg" alt="Binary Code - Bits and Data">
   </section>
 
+  <!-- Unit 2 -->
   <section>
     <h2>Unit 2: Computer Systems and Networks</h2>
-    <p>The <strong>internet</strong> is a <strong>computer network</strong> made of billions of <strong>computing devices</strong>. Data is split into <strong>packets</strong> that travel across <strong>paths</strong>. <strong>Protocols</strong> like <strong>TCP</strong>, <strong>UDP</strong>, and <strong>HTTP</strong> keep things working. Thanks to <strong>fault tolerance</strong>, <strong>redundancy</strong>, and <strong>scalability</strong>, the internet keeps growing and working even when parts fail. We use <strong>URLs</strong> to easily reach websites.</p>
-    <img src="faulttolerance.png" alt="Fault Tolerance Diagram">
+    <p>
+      The internet connects billions of devices worldwide. Messages are broken into packets, which
+      travel across different paths. Protocols and redundancy keep systems reliable and scalable.
+    </p>
+    <ul>
+      <li><strong>Computing Device:</strong> A physical device that can run a program (e.g., computer, smartphone, smart sensor).</li>
+      <li><strong>Computer Network:</strong> A group of interconnected computing devices capable of sending or receiving data.</li>
+      <li><strong>Path:</strong> The series of connections between computing devices on a network, starting with the sender and ending with the receiver.</li>
+      <li><strong>Protocol:</strong> An agreed-upon set of rules that specify how systems behave and communicate.</li>
+      <li><strong>Fault Tolerant:</strong> A system’s ability to continue functioning even if individual components fail.</li>
+      <li><strong>Scalability:</strong> The ability of a system to expand or contract to meet new demands.</li>
+      <li><strong>Bandwidth:</strong> The maximum transmission capacity of a system, measured by bit rate (bits per second).</li>
+      <li><strong>URL:</strong> An easy-to-remember web address (e.g., www.example.com).</li>
+    </ul>
+    <img src="faulttolerance.png" alt="Fault Tolerance">
   </section>
 
+  <!-- Video -->
   <section>
     <h2>How the Internet Works</h2>
-    <iframe src="https://www.youtube.com/embed/7_LPdttKXPc" allowfullscreen></iframe>
+    <p>Here’s a short video that explains how the internet really works behind the scenes:</p>
+    <iframe src="https://www.youtube.com/embed/zN8YNNHcaZc" allowfullscreen></iframe>
   </section>
 
 </body>
